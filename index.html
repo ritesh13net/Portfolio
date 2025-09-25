@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Ritesh Kumar</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>AI & ML Engineer with 3 years and 10 months of experience
+in designing, developing, and deploying innovative machine
+learning and deep learning solutions, with a total of 
+6 years and 7 months of overall professional experience.
+                </p>
+            <div class="social-media">
+                <a href="https://github.com/ritesh13net"><i class='bx bxl-github'></i></a>
+                <a href="URL.provide.soon"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <a href="RITESH KUMAR - Resume Refresh.pdf.pdf.pdf" class="btn" download>Download CV/Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="./images/aayushpuri.jfif" style="border-radius: 50%; border: 5px solid #0ef;">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/aayushpuri.jfif" style="border-radius: 50%; border: 5px solid #0ef;">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>A.I. & M.L. Engineer</h3>
+            <p>My name is Ritesh Kumar and I completed B.TECH from Bharati Vidyapeeth Deemed University, Pune and I have a good knowledge of python, MySQL and some Python library and Frameworks that would help me to data preprocessing feature engineering and model training.</p>
+            <a href="./files/text.html" class="btn">Read More</a>       
+        </div>
+    </section>
+    <section class="services" id="services">
+            <h2 class="heading">Our <span>Services</span></h2>
+            <div class="services-container">
+                <div class="services-box">
+                    <!-- <i class='bx bx-code-alt'></i> -->
+                    <i class='bx  bx-brain'  ></i> 
+                    <h3>Artificial Intelligence</h3>
+                    <p>I design and develop AI-driven solutions that automate processes and enhance decision-making. At Enord, I worked on AI models that improve efficiency and performance in various applications.</p>
+                    
+                </div>
+                <div class="services-box"> 
+                    <i class='bx bx-line-chart'></i>
+                    <h3>Machine Learning</h3>
+                    <p>I specialize in building machine learning models that learn from data and provide accurate predictions. My work includes data preprocessing, model training, and optimization using Python frameworks. I provide ML solutions that are scalable, efficient, and tailored to solve business challenges.</p>
+                    
+                </div>
+                <div class="services-box">
+                    <!-- <i class='bx bx-code-block'></i> -->
+                     <i class='bx bx-show-alt'></i>
+                    <h3>Computer Vision</h3>
+                    <p>I develop computer vision systems for tasks like object detection, image classification, and real-time recognition. At Enord, I worked on projects involving drones and surveillance, where vision-based AI played a crucial role. I provide end-to-end solutions that bring visual intelligence to machines.</p>
+                    
+                </div>
+            </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/listing.webp" alt=""> <!--image aayege yaha per-->
+                <div class="portfolio-layer">
+                    <h4>Wanderlust Listing Website</h4>
+                    <p>Designed and developed a travel listing website using full stack
+                        technologies.
+                        Enabled users to search, view, and review travel destinations.
+                        Used Express.js for server-side logic and MongoDB for storing user
+                        data.
+                        </p>
+                    <a href="https://web-development-project-yxvf.onrender.com/listings
+                    "><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/Object-detection.png" alt=""><!--image aayege-->
+                <div class="portfolio-layer">
+                    <h4>Object Tracking</h4>
+                    <p>Developed an interactive object tracking system where users can click or touch any object in the video, and the system tracks that object throughout the entire video in real time.
+                        </p>
+                    <a href="https://github.com/AayushPurivsKartik/Object_tracking"><i class='bx bx-link-external' ></i></a>
+                </div>    
+            </div>
+            <div class="portfolio-box">
+                <img src="images/fitlife.webp" alt=""><!--image aayegi-->
+                <div class="portfolio-layer">
+                    <h4>Fitlife Insight</h4>
+                    <p>Developed a fitness tracking application that monitors user health metrics and provides personalized exercise recommendations. Integrated an intelligent chatbot to guide users with fitness tips, answer health-related queries, and enhance the overall workout experience.</p>
+                    <a href="https://github.com/AayushPurivsKartik/Fitline_insight"><i class='bx bx-link-external' ></i></a>
+                </div>    
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <div class="form">
+            <div class="input-box">
+                <input id="completeName" type="text" placeholder="Complete Name">
+                <input id="email" type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input id="number" type="number" placeholder="Mobile Number">
+                <input id="subject" type="text" placeholder="Email Subject">
+            </div>
+            <textarea id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button onclick="sendmail()" class="btn">Submit</button>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Aayush | All rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bxs-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init({
+              publicKey: "_hURZUB8l-CFsrEOJ",
+            });
+        })();
+    </script>
+</body>
+</html>
